@@ -50,4 +50,9 @@ public class FoodSupplier
         PhoneNumber = memento.PhoneNumber;
         Address = memento.Address;
     }
+
+    public override string ToString()
+    {
+        return "Current state - "+Name+" "+ PhoneNumber+" "+Address;
+    }
 }

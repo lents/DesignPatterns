@@ -3,25 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34009.444
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{97C27509-18FB-4BD0-BD99-BBB7435C8C0D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy", "Strategy\Strategy.csproj", "{97C27509-18FB-4BD0-BD99-BBB7435C8C0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "TemplateMethod\TemplateMethod.csproj", "{49FAF55A-8C84-4B82-8651-61A8ABE0A6BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplateMethod", "TemplateMethod\TemplateMethod.csproj", "{49FAF55A-8C84-4B82-8651-61A8ABE0A6BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command", "Command\Command.csproj", "{F82FB986-D295-42A4-A63E-933ADB20739C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Command", "Command\Command.csproj", "{F82FB986-D295-42A4-A63E-933ADB20739C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observer.csproj", "{500EE1D8-C62E-47E7-8DAB-CBF70D65B3E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer", "Observer\Observer.csproj", "{500EE1D8-C62E-47E7-8DAB-CBF70D65B3E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator", "Mediator\Mediator.csproj", "{B3CD647B-5C51-4C78-A1E4-535F2E15B70D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator", "Mediator\Mediator.csproj", "{B3CD647B-5C51-4C78-A1E4-535F2E15B70D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visitor", "Visitor\Visitor.csproj", "{13E2A42E-F7AE-4E50-AC02-67DDBCB1C48D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Visitor", "Visitor\Visitor.csproj", "{13E2A42E-F7AE-4E50-AC02-67DDBCB1C48D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "State\State.csproj", "{3A1C77CA-57CA-4DF5-BAFC-39A6B960D7D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "State", "State\State.csproj", "{3A1C77CA-57CA-4DF5-BAFC-39A6B960D7D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterator", "Iterator\Iterator.csproj", "{905DA1EB-6316-4400-8ED6-1D82579D1401}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iterator", "Iterator\Iterator.csproj", "{905DA1EB-6316-4400-8ED6-1D82579D1401}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento", "Memento\Memento.csproj", "{7519D7EE-C6E4-4F10-914B-B8BCBF9E97DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Memento", "Memento\Memento.csproj", "{7519D7EE-C6E4-4F10-914B-B8BCBF9E97DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility", "ChainOfResponsibility\ChainOfResponsibility.csproj", "{45101356-1585-488D-B30A-35B82209A486}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResponsibility", "ChainOfResponsibility\ChainOfResponsibility.csproj", "{45101356-1585-488D-B30A-35B82209A486}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interpreter", "Interpreter\Interpreter.csproj", "{06BC6619-0E49-4F6B-AC78-81ED8D02CC2D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VisitorWebApp", "VisitorWebApp\VisitorWebApp.csproj", "{C224C2BC-2840-4921-838D-FE9977778C69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyWebApp", "StartegyWebApp\StrategyWebApp.csproj", "{563154FE-4445-45F3-BB0A-45A10736FCDD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +75,18 @@ Global
 		{45101356-1585-488D-B30A-35B82209A486}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45101356-1585-488D-B30A-35B82209A486}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45101356-1585-488D-B30A-35B82209A486}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06BC6619-0E49-4F6B-AC78-81ED8D02CC2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06BC6619-0E49-4F6B-AC78-81ED8D02CC2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06BC6619-0E49-4F6B-AC78-81ED8D02CC2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06BC6619-0E49-4F6B-AC78-81ED8D02CC2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C224C2BC-2840-4921-838D-FE9977778C69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C224C2BC-2840-4921-838D-FE9977778C69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C224C2BC-2840-4921-838D-FE9977778C69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C224C2BC-2840-4921-838D-FE9977778C69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{563154FE-4445-45F3-BB0A-45A10736FCDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{563154FE-4445-45F3-BB0A-45A10736FCDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{563154FE-4445-45F3-BB0A-45A10736FCDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{563154FE-4445-45F3-BB0A-45A10736FCDD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

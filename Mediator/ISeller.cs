@@ -1,6 +1,6 @@
-﻿// Wait for user
-
-
+﻿/// <summary>
+/// Seller Interface
+/// </summary>
 public interface ISeller
 {
     void AddProduct(Product product);

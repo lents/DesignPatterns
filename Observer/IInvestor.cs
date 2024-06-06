@@ -1,7 +1,8 @@
-﻿// Fluctuating prices will notify investors
-// Wait for user
+﻿
 /// <summary>
-/// The 'Observer' interface
+/// The 'Observer' interface.
+/// Fluctuating prices will notify investors. 
+/// Wait for notification from publisher. 
 /// </summary>
 public interface IInvestor
 {

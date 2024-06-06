@@ -1,5 +1,4 @@
-﻿
-/// <summary>
+﻿/// <summary>
 /// The 'ConcreteCommand' class
 /// </summary>
 public class CalculatorCommand : Command

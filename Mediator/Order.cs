@@ -1,3 +1,6 @@
-﻿public class Order
+﻿/// <summary>
+/// Order class
+/// </summary>
+public class Order
 {
 }

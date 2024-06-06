@@ -6,10 +6,14 @@
     };
     public override bool Handle(Order order, double proposedDiscount)
     {
-        if (_stockClearanceProducts.Contains(order.ProductCode) && proposedDiscount < 0.80)
+        if (_stockClearanceProducts.Contains(order.ProductCode) && proposedDiscount < 80)
+        {
+            ApprovalInfo("StockClearanceDiscountApproval", true);
             return true;
+        }
 
 
+        ApprovalInfo("StockClearanceDiscountApproval", false);
         return base.Handle(order, proposedDiscount);
     }
 }

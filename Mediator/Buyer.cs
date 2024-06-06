@@ -1,6 +1,6 @@
-﻿// Wait for user
-
-
+﻿/// <summary>
+/// Concrete buyer
+/// </summary>
 public class Buyer : IBuyer
 {
     private IEcommerceMediator mediator;

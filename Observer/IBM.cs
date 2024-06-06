@@ -1,7 +1,8 @@
 ﻿// Fluctuating prices will notify investors
-// Wait for user
+
 /// <summary>
-/// The 'ConcreteSubject' class
+/// The 'Concrete Publisher' class.
+/// Wait for user
 /// </summary>
 public class IBM : Stock
 {

@@ -1,6 +1,6 @@
-﻿// Create iterator
-// Skip every other item
-// Wait for user
+﻿/// <summary>
+/// Collection element 
+/// </summary>
 public class Item
 {
     string name;

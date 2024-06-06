@@ -1,4 +1,7 @@
-﻿public class DeliveryRequestOption
+﻿/// <summary>
+/// DTO for customer to choose better taxi
+/// </summary>
+public class DeliveryRequestOption
 {
     public decimal Price { get; set; }
     public int Duration { get; set; }

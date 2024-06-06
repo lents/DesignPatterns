@@ -1,4 +1,7 @@
-﻿public class MaximTaxiService : ITaxiService
+﻿/// <summary>
+/// strategies to work with Maxim taxi company
+/// </summary>
+public class MaximTaxiService : ITaxiService
 {
     public async Task<TaxiOrder> CreateOrder(Guid id, AddressInfo startPoint, AddressInfo endPoint)
     {

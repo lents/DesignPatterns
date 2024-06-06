@@ -1,8 +1,4 @@
-﻿// Create iterator
-// Skip every other item
-// Wait for user
-
-/// <summary>
+﻿/// <summary>
 /// The 'Aggregate' interface
 /// </summary>
 public interface IAbstractCollection

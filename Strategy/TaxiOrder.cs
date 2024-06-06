@@ -1,4 +1,7 @@
-﻿public class TaxiOrder
+﻿/// <summary>
+/// Dto to make order 
+/// </summary>
+public class TaxiOrder
 {
     public string OrderInfo { get; set; }
     public Guid Id { get; set; }

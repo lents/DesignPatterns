@@ -1,7 +1,6 @@
-﻿// Apply financial transactions
-// Wait for user
-/// <summary>
-/// A 'ConcreteState' class
+﻿/// <summary>
+/// A 'ConcreteState' class 
+/// Apply financial transactions
 /// <remarks>
 /// Gold indicates an interest bearing state
 /// </remarks>

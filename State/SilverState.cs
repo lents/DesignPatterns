@@ -1,6 +1,4 @@
-﻿// Apply financial transactions
-// Wait for user
-/// <summary>
+﻿/// <summary>
 /// A 'ConcreteState' class
 /// <remarks>
 /// Silver indicates a non-interest bearing state

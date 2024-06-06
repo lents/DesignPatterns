@@ -1,5 +1,6 @@
-﻿// Wait for user
-
+﻿/// <summary>
+/// Concrete commerce mediator
+/// </summary>
 public class EcommerceMediator : IEcommerceMediator
 {
     private List<Buyer> buyers = new List<Buyer>();

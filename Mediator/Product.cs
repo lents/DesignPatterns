@@ -1,3 +1,6 @@
-﻿public class Product
+﻿/// <summary>
+/// Product class
+/// </summary>
+public class Product
 {
 }

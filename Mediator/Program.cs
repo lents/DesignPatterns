@@ -10,6 +10,9 @@ commerceMediator.NotifyBuyerOrderStatus("1", "Создан");
 // Wait for user
 Console.ReadKey();
 
+/// <summary>
+/// Mediator Interface
+/// </summary>
 public interface IEcommerceMediator
 {
     void NotifyBuyerOrderStatus(string orderId, string status);

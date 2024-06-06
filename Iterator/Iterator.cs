@@ -1,17 +1,4 @@
-﻿// Create iterator
-// Skip every other item
-// Wait for user
-
-/// <summary>
-/// The 'Aggregate' interface
-/// </summary>
-/// <summary>
-/// The 'ConcreteAggregate' class
-/// </summary>
-/// <summary>
-/// The 'Iterator' interface
-/// </summary>
-/// <summary>
+﻿/// <summary>
 /// The 'ConcreteIterator' class
 /// </summary>
 public class Iterator : IAbstractIterator

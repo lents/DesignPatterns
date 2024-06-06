@@ -1,4 +1,7 @@
-﻿public class YandexTaxiService : ITaxiService
+﻿/// <summary>
+/// strategies to work with Yandex taxi company
+/// </summary>
+public class YandexTaxiService : ITaxiService
 {
     public async Task<TaxiOrder> CreateOrder(Guid id, AddressInfo startPoint, AddressInfo endPoint)
     {

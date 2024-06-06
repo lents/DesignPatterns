@@ -1,7 +1,4 @@
 ﻿/// <summary>
-/// The 'ConcreteCommand' class
-/// </summary>
-/// <summary>
 /// The 'Receiver' class
 /// </summary>
 public class Calculator

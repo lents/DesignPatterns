@@ -1,6 +1,4 @@
-﻿// Apply financial transactions
-// Wait for user
-/// <summary>
+﻿/// <summary>
 /// The 'Context' class
 /// </summary>
 public class Account
@@ -27,7 +25,7 @@ public class Account
     {
         state.Deposit(amount);
         Console.WriteLine("Deposited {0:C} --- ", amount);
-        Console.WriteLine(" Balance = {0:C}", this.Balance);
+        Console.WriteLine(" Balance = {0:N}", this.Balance);
         Console.WriteLine(" Status  = {0}",
             this.State.GetType().Name);
         Console.WriteLine("");
@@ -36,7 +34,7 @@ public class Account
     {
         state.Withdraw(amount);
         Console.WriteLine("Withdrew {0:C} --- ", amount);
-        Console.WriteLine(" Balance = {0:C}", this.Balance);
+        Console.WriteLine(" Balance = {0:N}", this.Balance);
         Console.WriteLine(" Status  = {0}\n",
             this.State.GetType().Name);
     }
@@ -44,7 +42,7 @@ public class Account
     {
         state.PayInterest();
         Console.WriteLine("Interest Paid --- ");
-        Console.WriteLine(" Balance = {0:C}", this.Balance);
+        Console.WriteLine(" Balance = {0:N}", this.Balance);
         Console.WriteLine(" Status  = {0}\n",
             this.State.GetType().Name);
     }

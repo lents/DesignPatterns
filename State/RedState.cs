@@ -1,6 +1,4 @@
-﻿// Apply financial transactions
-// Wait for user
-/// <summary>
+﻿/// <summary>
 /// A 'ConcreteState' class
 /// <remarks>
 /// Red indicates that account is overdrawn 
@@ -31,7 +29,6 @@ public class RedState : State
     }
     public override void Withdraw(double amount)
     {
-        amount = amount - serviceFee;
         Console.WriteLine("No funds available for withdrawal!");
     }
     public override void PayInterest()

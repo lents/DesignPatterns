@@ -1,7 +1,6 @@
-﻿
-// Element
-
-
+﻿/// <summary>
+/// Visitor with additional functionality
+/// </summary>
 public class ComputerPartDiagnosticVisitor : IComputerPartVisitor
 {
     public void Visit(Keyboard keyboard)

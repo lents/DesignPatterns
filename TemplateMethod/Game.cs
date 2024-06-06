@@ -1,23 +1,38 @@
 ﻿public abstract class Enemy
 {
+    /// <summary>
+    /// Шаблонный  метод
+    /// </summary>
     public void PerformAttack()
     {
         ApproachPlayer();
-        AttackPlayer();
+        DoAttackPlayer();
         SaySomething();
         RunAway();
     }
-
+    /// <summary>
+    /// Операция1, которая уже имеет реализацию,
+    /// общая для всех подклассов
+    /// </summary>
     private void ApproachPlayer()
     {
         Console.WriteLine("Approaching the player");
     }
-
-    protected abstract void AttackPlayer();
-
+    /// <summary>
+    /// Операция , которая должна быть переопределена в подклассе
+    /// Do - префикс говорящий о том что операция должна быть переопределена в классе потомке
+    /// </summary>
+    protected abstract void DoAttackPlayer();
+    /// <summary>
+    /// Хук, который может так и оставаться пустой заглушкой, 
+    /// а может расширить алгоритм дополнительной функциональностью
+    /// </summary>
     protected virtual void SaySomething()
     { }
-
+    /// <summary>
+    /// Операция2, которая уже имеет реализацию,
+    /// общая для всех подклассов
+    /// </summary>
     private void RunAway()
     {
         Console.WriteLine("Running away");
@@ -26,7 +41,7 @@
 
 public class Goblin : Enemy
 {
-    protected override void AttackPlayer()
+    protected override void DoAttackPlayer()
     {
         Console.WriteLine("Attacking in melee");
     }
@@ -39,7 +54,7 @@ public class Goblin : Enemy
 
 public class Archer : Enemy
 {
-    protected override void AttackPlayer()
+    protected override void DoAttackPlayer()
     {
         Console.WriteLine("Attacking from distance");
     }

@@ -13,4 +13,21 @@
         Console.WriteLine($" Order with client code {order.ClientCode} and  {order.ProductCode} got discount {proposedDiscount}");
         return _nextHandler?.Handle(order, proposedDiscount) ?? false;
     }
+
+    public void ApprovalInfo(string inf, bool res)
+    {
+        if (res)
+        {
+            Console.BackgroundColor = ConsoleColor.Green;
+            Console.WriteLine($"{inf} had been passed");
+            Console.BackgroundColor = ConsoleColor.Black;
+        }
+        else
+        {
+            Console.BackgroundColor = ConsoleColor.Red;
+            Console.WriteLine($"{inf} had not been passed");
+            Console.BackgroundColor = ConsoleColor.Black;
+        }
+
+    }
 }
